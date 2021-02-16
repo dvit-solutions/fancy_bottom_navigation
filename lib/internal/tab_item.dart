@@ -71,6 +71,7 @@ class TabItem extends StatelessWidget {
                   icon: Icon(
                     iconData,
                     color: iconColor,
+                    size: 35,
                   ),
                   onPressed: () {
                     callbackFunction(uniqueKey);
